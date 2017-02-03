@@ -1,0 +1,25 @@
+{
+  "name": "Continuous-Integration",
+  "version": "1.0.0",
+  "description": "Running continuous integration with Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "tdd": "mocha -w -R nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliocj360/Continuous-Integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliocj360/Continuous-Integration/issues"
+  },
+  "homepage": "https://github.com/juliocj360/Continuous-Integration#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
